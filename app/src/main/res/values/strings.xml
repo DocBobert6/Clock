@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Clock</string>
+    <string name="tab_world_clock">World Clock</string>
+    <string name="tab_alarms">Alarms</string>
+    <string name="tab_bedtime">Bedtime</string>
+    <string name="tab_stopwatch">Stopwatch</string>
+    <string name="tab_timers">Timers</string>
+    <string name="settings_title">Settings</string>
+    <string name="about_clock">About Clock</string>
+    <string name="clock_screensaver">Clock Bedside Screen Saver</string>
+</resources>

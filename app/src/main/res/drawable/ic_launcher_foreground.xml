@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Clock dial ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:pathData="M54,28 A26,26 0 1,0 54,80 A26,26 0 1,0 54,28 Z" />
+    
+    <!-- 12 hour tick marks -->
+    <path
+        android:strokeColor="#8E8E93"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M54,30 L54,34 M54,74 L54,78 M30,54 L34,54 M74,54 L78,54" />
+
+    <!-- Hour hand pointing to 10:00 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L42,42" />
+
+    <!-- Minute hand pointing to ~2:00 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L69,39" />
+
+    <!-- Accent blue second hand pointing to ~4:30 -->
+    <path
+        android:strokeColor="#0A84FF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M50,50 L68,68" />
+
+    <!-- Center pivot cap -->
+    <path
+        android:fillColor="#0A84FF"
+        android:pathData="M54,51.5 A2.5,2.5 0 1,0 54,56.5 A2.5,2.5 0 1,0 54,51.5 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,53 A1,1 0 1,0 54,55 A1,1 0 1,0 54,53 Z" />
+</vector>

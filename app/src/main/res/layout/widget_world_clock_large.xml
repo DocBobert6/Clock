@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Row 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView android:id="@+id/city_1_offset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Current Location" android:textColor="#8E8E93" android:textSize="11sp" />
+            <TextView android:id="@+id/city_1_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Local" android:textColor="#FFFFFF" android:textSize="17sp" android:textStyle="bold" />
+        </LinearLayout>
+        <TextClock android:id="@+id/city_1_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="22sp" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="#38383A" />
+
+    <!-- Row 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView android:id="@+id/city_2_offset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Today, +5HRS" android:textColor="#8E8E93" android:textSize="11sp" />
+            <TextView android:id="@+id/city_2_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="London" android:textColor="#FFFFFF" android:textSize="17sp" android:textStyle="bold" />
+        </LinearLayout>
+        <TextClock android:id="@+id/city_2_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="22sp" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="#38383A" />
+
+    <!-- Row 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView android:id="@+id/city_3_offset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tomorrow, +14HRS" android:textColor="#8E8E93" android:textSize="11sp" />
+            <TextView android:id="@+id/city_3_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tokyo" android:textColor="#FFFFFF" android:textSize="17sp" android:textStyle="bold" />
+        </LinearLayout>
+        <TextClock android:id="@+id/city_3_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="22sp" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="#38383A" />
+
+    <!-- Row 4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView android:id="@+id/city_4_offset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tomorrow, +16HRS" android:textColor="#8E8E93" android:textSize="11sp" />
+            <TextView android:id="@+id/city_4_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sydney" android:textColor="#FFFFFF" android:textSize="17sp" android:textStyle="bold" />
+        </LinearLayout>
+        <TextClock android:id="@+id/city_4_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="22sp" />
+    </LinearLayout>
+</LinearLayout>

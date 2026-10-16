@@ -1,0 +1,6 @@
+{
+  "name": "Clock",
+  "description": "Minimalist, feature-packed dark clock app with World Clock, Alarms, Bedtime sleep dial, Stopwatch, Timers, Ambient bedside screen saver, and customizable Home Screen widgets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
